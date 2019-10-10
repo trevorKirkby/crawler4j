@@ -404,8 +404,9 @@ public class WebCrawler implements Runnable {
      *
      * @param page
      *            the page object that is just fetched and parsed.
+     * @throws IOException 
      */
-    public void visit(Page page) {
+    public void visit(Page page) throws IOException {
         // Do nothing by default
         // Sub-classed should override this to add their custom functionality
     }

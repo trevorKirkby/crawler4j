@@ -81,3 +81,7 @@ subprojects {
         jvmArgs '-Xmx2g'
     }
 }
+
+dependencies {
+	compile group: 'edu.uci.ics', name: 'crawler4j', version: '4.4.0'
+}
